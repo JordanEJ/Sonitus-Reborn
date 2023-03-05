@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>packageNameHeader</string>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>PackageNameHeaderCell</string>
+				<key>packageIdentifier</key>
+				<string>com.semvis.sonitus</string>
+				<key>backgroundGradientColors</key>
+				<array>
+					<string>#064A5F</string>
+					<string>#031418</string>
+				</array>
+				<key>footerText</key>
+				<string>Currently supported devices: Sony, Bose and Soundcore (beta). Please contact me using one of the links below if you encounter some issues.</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true />
+				<key>defaults</key>
+				<string>com.semvis.sonituspreferences</string>
+				<key>key</key>
+				<string>Enabled</string>
+				<key>label</key>
+				<string>Enabled</string>
+				<key>iconImageSystem</key>
+				<dict>
+					<key>name</key>
+					<string>switch.2</string>
+					<key>tintColor</key>
+					<string>#ffffff</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>HeadphonesList</string>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>defaults</key>
+				<string>com.semvis.sonituspreferences</string>
+				<key>detail</key>
+				<string>PSListItemsController</string>
+				<key>key</key>
+				<string>HeadphonesName</string>
+				<key>label</key>
+				<string>Select your headphones:</string>
+				<key>validTitles</key>
+				<array>
+				</array>
+				<key>validValues</key>
+				<array>
+				</array>
+				<key>iconImageSystem</key>
+				<dict>
+					<key>name</key>
+					<string>headphones</string>
+					<key>tintColor</key>
+					<string>#ffffff</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other settings</string>
+				<key>isStaticText</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>detail</key>
+				<string>SPBSonyListController</string>
+				<key>isController</key>
+				<true/>
+				<key>label</key>
+				<string>Sony specific settings</string>
+				<key>iconImageSystem</key>
+				<dict>
+					<key>name</key>
+					<string>gearshape.2.fill</string>
+					<key>tintColor</key>
+					<string>#ffffff</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string></string>
+				<key>isStaticText</key>
+				<true/>
+				<key>footerAlignment</key>
+				<real>1</real>
+				<key>footerText</key>
+				<string>Semvis © 2021</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBTwitterCell</string>
+				<key>label</key>
+				<string>Twitter</string>
+				<key>showAvatar</key>
+				<true/>
+				<key>user</key>
+				<string>semvis123</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>label</key>
+				<string>GitHub</string>
+				<key>subtitle</key>
+				<string>This tweak is fully open-source</string>
+				<key>url</key>
+				<string>https://github.com/semvis123/sonitus</string>
+				<key>icon</key>
+				<string>github.png</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>label</key>
+				<string>Discord server</string>
+				<key>subtitle</key>
+				<string>Say hello 👋</string>
+				<key>url</key>
+				<string>https://discord.gg/hHqwhQKk89</string>
+				<key>icon</key>
+				<string>discord.png</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>label</key>
+				<string>Buy me a coffee</string>
+				<key>subtitle</key>
+				<string>Appreciated :)</string>
+				<key>url</key>
+				<string>https://ko-fi.com/semvis</string>
+				<key>icon</key>
+				<string>donate.png</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>🎧</string>
+	</dict>
+</plist>
