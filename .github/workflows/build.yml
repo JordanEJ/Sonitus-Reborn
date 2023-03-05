@@ -26,7 +26,7 @@ jobs:
         run: |
           brew install ldid xz
       - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode_11.7.app 
+        run: sudo xcode-select -switch /Applications/Xcode_14.2.app 
       - name: Setup Theos
         uses: actions/checkout@master
         with:
