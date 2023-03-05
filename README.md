@@ -1,3 +1,4 @@
+> W.I.P Not working atm. README also needs to be edited
 # Sonitus
 Noise-controls like **native**, but for _non-Apple_ devices.  
 Simply select your device and you're ready to go.
