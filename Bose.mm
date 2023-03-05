@@ -17,7 +17,7 @@
 	[[SessionController sharedController] setupControllerForAccessory:accessory withProtocolString: v2 ? @"com.bose.bmap2" : @"com.bose.bmap"];
 	[[SessionController sharedController] openSession];
 	// create a new dispatch queue
-	dispatch_queue_t queue = dispatch_queue_create("com.semvis.sonitus.queue", NULL);
+	dispatch_queue_t queue = dispatch_queue_create("com.jordanej.sonitusreborn.queue", NULL);
 
 	dispatch_async(queue, ^{
 		[[[SessionController sharedController] writeDataCondition] lock];

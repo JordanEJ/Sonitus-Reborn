@@ -19,7 +19,7 @@
 
 	self.shouldChangeTolisteningMode = listeningMode;
 	if (self.centralManager == nil) {
-		self.centralQueue = dispatch_queue_create("com.semvis.sonitus", DISPATCH_QUEUE_SERIAL);
+		self.centralQueue = dispatch_queue_create("com.jordanej.sonitusreborn", DISPATCH_QUEUE_SERIAL);
 		self.centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:self.centralQueue];
 	}
 	if (self.peripheral != nil && self.foundCharacteristic != nil) {

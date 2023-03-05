@@ -12,7 +12,7 @@
 				<key>headerCellClass</key>
 				<string>PackageNameHeaderCell</string>
 				<key>packageIdentifier</key>
-				<string>com.semvis.sonitus</string>
+				<string>com.jordanej.sonitusreborn</string>
 				<key>backgroundGradientColors</key>
 				<array>
 					<string>#064A5F</string>
@@ -27,7 +27,7 @@
 				<key>default</key>
 				<true />
 				<key>defaults</key>
-				<string>com.semvis.sonituspreferences</string>
+				<string>com.jordanej.sonitusrebornpreferences</string>
 				<key>key</key>
 				<string>Enabled</string>
 				<key>label</key>
@@ -46,7 +46,7 @@
 				<key>cell</key>
 				<string>PSLinkListCell</string>
 				<key>defaults</key>
-				<string>com.semvis.sonituspreferences</string>
+				<string>com.jordanej.sonitusrebornpreferences</string>
 				<key>detail</key>
 				<string>PSListItemsController</string>
 				<key>key</key>
@@ -122,7 +122,7 @@
 				<key>subtitle</key>
 				<string>This tweak is fully open-source</string>
 				<key>url</key>
-				<string>https://github.com/semvis123/sonitus</string>
+				<string>https://github.com/JordanEJ/Sonitus-Reborn</string>
 				<key>icon</key>
 				<string>github.png</string>
 			</dict>

@@ -34,7 +34,7 @@
 			<key>default</key>
 			<real>0</real>
 			<key>defaults</key>
-			<string>com.semvis.sonituspreferences</string>
+			<string>com.jordanej.sonitusrebornpreferences</string>
 			<key>key</key>
 			<string>SonyNCValue</string>
 			<key>min</key>
@@ -52,7 +52,7 @@
 			<key>default</key>
 			<false />
 			<key>defaults</key>
-			<string>com.semvis.sonituspreferences</string>
+			<string>com.jordanej.sonitusrebornpreferences</string>
 			<key>key</key>
 			<string>SonyFocusOnVoiceNC</string>
 			<key>label</key>
@@ -80,7 +80,7 @@
 			<key>default</key>
 			<real>20</real>
 			<key>defaults</key>
-			<string>com.semvis.sonituspreferences</string>
+			<string>com.jordanej.sonitusrebornpreferences</string>
 			<key>key</key>
 			<string>SonyASMValue</string>
 			<key>min</key>
@@ -98,7 +98,7 @@
 			<key>default</key>
 			<false />
 			<key>defaults</key>
-			<string>com.semvis.sonituspreferences</string>
+			<string>com.jordanej.sonitusrebornpreferences</string>
 			<key>key</key>
 			<string>SonyFocusOnVoiceASM</string>
 			<key>label</key>
@@ -120,7 +120,7 @@
 			<key>default</key>  
 			<true />
 			<key>defaults</key>
-			<string>com.semvis.sonituspreferences</string>
+			<string>com.jordanej.sonitusrebornpreferences</string>
 			<key>key</key>
 			<string>SonyWindReductionSupport</string>
 			<key>label</key>

@@ -49,7 +49,7 @@ NSString *previous = @"AVOutputDeviceBluetoothListeningModeNormal";
 %end
 
 %ctor {
-	preferences = [[HBPreferences alloc] initWithIdentifier:@"com.semvis.sonituspreferences"];
+	preferences = [[HBPreferences alloc] initWithIdentifier:@"com.jordanej.sonitusrebornpreferences"];
 	[preferences registerDefaults:@{
 		@"Enabled": @YES,
 		@"HeadphonesName": @"WH-1000XM3",

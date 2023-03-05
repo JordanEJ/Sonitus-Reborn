@@ -25,7 +25,7 @@
 	[[SessionController sharedController] setupControllerForAccessory:accessory withProtocolString: v2 ? @"jp.co.sony.songpal.mdr.link2": @"jp.co.sony.songpal.mdr.link"];
 	[[SessionController sharedController] openSession];
 
-	dispatch_queue_t queue = dispatch_queue_create("com.semvis.sonitus.queue", NULL);
+	dispatch_queue_t queue = dispatch_queue_create("com.jordanej.sonitusreborn.queue", NULL);
 
 	dispatch_async(queue, ^{
 		[[[SessionController sharedController] writeDataCondition] lock];

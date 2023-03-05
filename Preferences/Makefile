@@ -2,7 +2,7 @@ TARGET := iphone:clang:13.3.1
 
 include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = sonitusPreferences
+BUNDLE_NAME = sonitusrebornPreferences
 
 $(BUNDLE_NAME)_FILES = SPBRootListController.m SPBSonyListController.m PackageNameHeaderCell.m
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit BluetoothManager
