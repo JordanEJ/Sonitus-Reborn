@@ -102,17 +102,7 @@
 				<key>footerAlignment</key>
 				<real>1</real>
 				<key>footerText</key>
-				<string>Semvis © 2021</string>
-			</dict>
-			<dict>
-				<key>cellClass</key>
-				<string>HBTwitterCell</string>
-				<key>label</key>
-				<string>Twitter</string>
-				<key>showAvatar</key>
-				<true/>
-				<key>user</key>
-				<string>semvis123</string>
+				<string>JordanEJ © 2023</string>
 			</dict>
 			<dict>
 				<key>cellClass</key>
@@ -130,23 +120,11 @@
 				<key>cellClass</key>
 				<string>HBLinkTableCell</string>
 				<key>label</key>
-				<string>Discord server</string>
-				<key>subtitle</key>
-				<string>Say hello 👋</string>
-				<key>url</key>
-				<string>https://discord.gg/hHqwhQKk89</string>
-				<key>icon</key>
-				<string>discord.png</string>
-			</dict>
-			<dict>
-				<key>cellClass</key>
-				<string>HBLinkTableCell</string>
-				<key>label</key>
 				<string>Buy me a coffee</string>
 				<key>subtitle</key>
-				<string>Appreciated :)</string>
+				<string>Only if you must 😁</string>
 				<key>url</key>
-				<string>https://ko-fi.com/semvis</string>
+				<string>https://www.buymeacoffee.com/jordanej20o</string>
 				<key>icon</key>
 				<string>donate.png</string>
 			</dict>
