@@ -1,8 +1,3 @@
-![Latest release](https://img.shields.io/github/v/tag/semvis123/sonitus?include_prereleases&label=Latest%20release&style=flat-square)
-![Build status](https://img.shields.io/github/workflow/status/semvis123/sonitus/Build?style=flat-square)
-![License](https://img.shields.io/github/license/semvis123/sonitus?style=flat-square)
-![Discussions](https://img.shields.io/github/discussions/semvis123/sonitus?style=flat-square)
-![Stars](https://img.shields.io/github/stars/semvis123/sonitus?style=social)
 # Sonitus
 Noise-controls like **native**, but for _non-Apple_ devices.  
 Simply select your device and you're ready to go.
