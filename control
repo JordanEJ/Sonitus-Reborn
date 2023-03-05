@@ -1,6 +1,6 @@
 Package: com.jordanej.sonitusreborn
 Name: Sonitus Rebourn
-Version: v0.1
+Version: 0.1
 Architecture: iphoneos-arm
 Description: Sonitus Reborn, bring the noise cancellation control of your headphones to the built-in iOS menu.
 Maintainer: JordanEJ
