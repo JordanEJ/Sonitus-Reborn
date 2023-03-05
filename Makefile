@@ -5,7 +5,7 @@ INSTALL_TARGET_PROCESSES = SpringBoard
 THEOS_DEVICE_IP = 192.168.2.15
 include $(THEOS)/makefiles/common.mk
 ARCHS = arm64 arm64e
-TWEAK_NAME = Sonitus Reborn
+TWEAK_NAME = SonitusReborn
 $(TWEAK_NAME)_FILES = Tweak.xm SessionController.mm Sony.mm Bose.mm Soundcore.mm Sennheiser.mm
 SUBPROJECTS += Preferences
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc -std=c++17
