@@ -1,6 +1,6 @@
 > W.I.P Not working atm. README also needs to be edited
 # Sonitus
-Noise-controls like **native**, but for _non-Apple_ devices that update when you change modes on the headphones.
+Noise-controls like **native**, but for _non-Apple_ devices that updates the noise-cancelling slider on iOS when you change modes on the headphones.
 Simply select your device and you're ready to go.
 \
 &nbsp;
