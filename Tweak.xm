@@ -6,7 +6,8 @@ NSString *previous = @"AVOutputDeviceBluetoothListeningModeNormal";
 
 -(id)availableBluetoothListeningModes {
 	if ([preferences boolForKey:@"Enabled"] && [self.name isEqual:(NSString *)[preferences objectForKey:@"HeadphonesName"]]){
-		NSArray *options = [NSArray arrayWithObjects:@"AVOutputDeviceBluetoothListeningModeActiveNoiseCancellation",
+		NSArray *options = [NSArray arrayWithObjects:@"AVOutputDeviceBluetoothListeningModeNormal",
+							@"AVOutputDeviceBluetoothListeningModeActiveNoiseCancellation",
 							@"AVOutputDeviceBluetoothListeningModeAudioTransparency",
 							nil];
 		return options;
